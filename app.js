@@ -32,7 +32,7 @@ document.querySelector(".btn-roll").addEventListener('click',function(){
          scores[active_player] += round_score;
          document.getElementById("score-" + active_player).innerHTML = scores[active_player];
      }
-     if (scores[active_player] >= 20){
+     if (scores[active_player] >= 100){
          document.getElementById("name-"+active_player).innerHTML = "Winner";
          var diceDom = document.querySelector(".dice");
          diceDom.style.display = "none";
