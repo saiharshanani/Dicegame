@@ -9,4 +9,4 @@ Simple dice game for two players
 - The first player to reach 100 points on GLOBAL score wins the game
 
 #### Skills Learnt:
-- DOM Manipulations, Event Handling, JavaScript Basics
+- DOM Manipulations, Event Handling, JavaScript
