@@ -16,7 +16,7 @@ document.querySelector(".btn-roll").addEventListener('click',function(){
         // display dice
         var diceDom = document.querySelector(".dice");
         diceDom.style.display = "Block";
-        diceDom.src = "./assets/dice-" + dice + ".png";
+        diceDom.src = "./Assets/dice-" + dice + ".png";
         // update current score if it is not equal to 1
         if (dice != 1) {
             round_score += dice;
